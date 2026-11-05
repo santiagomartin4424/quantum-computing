@@ -1,4 +1,4 @@
-# Quantum Computing: From The Fundamentals to an Optimization Benchmark
+# Quantum Computing: From Fundamentals to an Optimization Benchmark
 
 In this repository I present four Python notebooks that cover from basic concepts to a final project: comparing **QAOA** with a classical method on an optimization problem (MaxCut), measuring quality, runtime and resources.
 
@@ -22,7 +22,7 @@ jupyter notebook
 
 ## Main project: QAOA vs. classical on MaxCut
 
-**Problem:** split 8 delivery points into two shifts, separating the costliest conflicts. This is weighted MaxCut.
+**Problem:** split 8 delivery points into two shifts, separating the costliest conflicts. This is weighted MaxCut. In the followig image you can see the differences between the implementations:
 
 ![Benchmark](figures/benchmark.png)
 
