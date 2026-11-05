@@ -22,7 +22,9 @@ jupyter notebook
 
 ## Main project: QAOA vs. classical on MaxCut
 
-**Problem:** split 8 delivery points into two shifts, separating the costliest conflicts. This is weighted MaxCut. In the followig image you can see the differences between the implementations:
+**Problem:** split 8 delivery points into two shifts, separating the costliest conflicts. This is weighted MaxCut.
+
+The figure below compares the methods as the graph grows (n = number of nodes = qubits): brute force, simulated annealing, and QAOA with p = 1, 2 and 3 layers. From left to right, it shows solution quality, runtime and resources used.
 
 ![Benchmark](figures/benchmark.png)
 
