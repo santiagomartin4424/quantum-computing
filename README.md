@@ -1,4 +1,4 @@
-# Quantum Computing: From Fundamentals to an Optimization Benchmark
+# Quantum Computing: An Optimization Benchmark
 
 In this repository I present four Python notebooks that cover from basic concepts to a final project: comparing **QAOA** with a classical method on an optimization problem (MaxCut), measuring quality, runtime and resources.
 
